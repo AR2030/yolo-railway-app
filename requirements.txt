@@ -1,7 +1,8 @@
-# requirements.txt (New and Fixed)
-fastapi
-uvicorn
-python-multipart
-onnxruntime==1.17.1  # <-- UPDATED THIS LINE
-numpy==1.26.2
-opencv-python-headless==4.8.1.78
+flask
+# onnxruntime is the only library needed to run the ONNX model
+onnxruntime
+mediapipe
+# Use opencv-python-headless for servers
+opencv-python-headless
+numpy
+Pillow
